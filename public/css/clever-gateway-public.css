@@ -1,0 +1,606 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.cl-money,
+.clever-method-description a {
+  color: #3e64ff;
+}
+
+.cl-has-cb {
+  height: 24px !important;
+}
+
+.cl-des-top-item {
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+
+.cl-hidden{
+  display: none !important;
+}
+
+.clever-method-description {
+  background: #f7f7f7;
+  border-radius: 10px;
+  /*font-weight: bold;*/
+  padding: 10px;
+  font-size: 14px;
+  color: #000;
+}
+.hidden-m{
+  display: none;
+}
+.cl-des-top-item {
+  font-size: 16px;
+}
+
+.cl-des-item {
+  display: flex;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.cl-des-item img {
+  margin-right: 4px;
+  width: 40px;
+  height: 40px;
+  max-height: 40px !important;
+}
+
+.payment_box.payment_method_clever_gateway {
+  font-size: 14px;
+}
+
+.payment_method_clever_gateway {
+  overflow: hidden;
+  position: relative;
+  padding-top: 10px !important;
+}
+
+.payment_method_clever_gateway img {
+  /*float: right;*/
+  margin-left: 5px;
+  max-height: 24px;
+  display: inline-block;
+}
+
+#payment_method_clever_gateway {
+  /*float: left;*/
+}
+
+.payment_box.payment_method_clever_gateway {
+  clear: both;
+}
+
+.clever-gateway-result {
+  text-align: center;
+}
+
+.clever-gateway-s-text {
+  font-size: 24px;
+  margin: 15px 0;
+  color: green;
+  font-weight: bold;
+}
+
+.clever-success-animation img {
+  width: 100px;
+  display: inline-block;
+}
+
+.cl_hint {
+  background: #ecefff;
+  border-radius: 8px;
+  display: inline-block;
+  padding: 2px 10px;
+  font-size: 12px;
+  position: absolute;
+  top: 10px;
+  cursor: pointer;
+}
+
+.cl_hint span {
+  color: #3e64ff;
+  margin-right: 10px;
+}
+
+.cl-disabled {
+  opacity: 0.7;
+}
+
+#clever-payment-popup .modal__container {
+  width: 400px !important;
+}
+
+.cl_text_1 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.cl_text_1 a {
+  color: #3e64ff;
+}
+
+.cl_text_2 {
+  font-size: 14px;
+  color: #00000066;
+}
+
+.cl_center {
+  text-align: center;
+}
+
+.cl_logo {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cl_logo > div {
+  width: 50%;
+  border-right: 1px solid #ddd;
+  display: flex;
+  justify-content: center;
+}
+
+.cl_logo > div:last-child {
+  border: 0;
+}
+
+.cl_box {
+  background: #f8f8f8;
+  padding: 20px 15px;
+  border-radius: 16px;
+  margin-top: 10px;
+}
+
+.cl_box_item {
+  display: flex;
+}
+
+.cl_box_title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #000;
+}
+
+.cl-py {
+  padding: 10px 0;
+}
+
+.cl_btns {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cl_learn_more {
+  width: 160px;
+  text-align: center;
+  padding: 10px 30px;
+  border-radius: 12px;
+  font-weight: bold;
+  border: 2px solid #3e64ff;
+  color: #3e64ff;
+  font-size: 14px;
+}
+
+.cl_learn_more_2 {
+  width: 160px;
+  text-align: center;
+  padding: 10px 30px;
+  border-radius: 12px;
+  font-weight: bold;
+  background: #3e64ff;
+  border: 2px solid #3e64ff;
+  color: #fff;
+  font-size: 14px;
+}
+
+.cl_box_desc {
+  font-size: 12px;
+}
+
+.cl_box_item {
+  margin-bottom: 8px;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.cl_box_item:last-child {
+  border: 0;
+  margin-bottom: 0;
+}
+
+.cl_box_item .cl_rounded {
+  padding: 10px;
+  background: #e0f2ec;
+  border-radius: 50%;
+  margin-right: 15px;
+  display: inline-block;
+}
+
+.cl_box_item .cl_rounded img {
+  width: 30px;
+}
+
+.cl_box_item:nth-child(odd) .cl_rounded {
+  background: #f9e5eb !important;
+}
+
+#clever-express-checkout-popup .modal__overlay, #clever-offer-popup .modal__overlay {
+  z-index: 99999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background: rgba(0, 0, 0, 0.6); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#clever-express-checkout-popup .cl_popup .modal__header, #clever-offer-popup .cl_popup .modal__header {
+  z-index: 999999999;
+  width: 412px;
+  margin: auto;
+  background: transparent;
+}
+
+#clever-express-checkout-popup .cl_close,  #clever-offer-popup .cl_close{
+  position: absolute;
+  right: -15px;
+  top: -20px;
+  cursor: pointer;
+  z-index: 999;
+}
+
+#clever-express-checkout-popup .modal__title, #clever-offer-popup .modal__title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.25;
+  color: #00449e;
+  box-sizing: border-box;
+}
+
+#clever-express-checkout-popup .modal__close, #clever-offer-popup .modal__close {
+  background: transparent;
+  border: 0;
+}
+
+#clever-express-checkout-popup .modal__header .modal__close:before, #clever-offer-popup .modal__header .modal__close:before {
+  content: '\2715';
+}
+
+#clever-express-checkout-popup .modal__content, #clever-offer-popup .modal__content {
+  margin-top: 2rem;
+  /*margin-bottom: 2rem;*/
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+#clever-express-checkout-popup .modal__btn, #clever-offer-popup .modal__btn {
+  font-size: 0.875rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #e6e6e6;
+  color: rgba(0, 0, 0, 0.8);
+  border-radius: 0.25rem;
+  border-style: none;
+  border-width: 0;
+  cursor: pointer;
+  -webkit-appearance: button;
+  text-transform: none;
+  overflow: visible;
+  line-height: 1.15;
+  margin: 0;
+  will-change: transform;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  transition: -webkit-transform 0.25s ease-out;
+  transition: transform 0.25s ease-out;
+  transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+}
+
+#clever-express-checkout-popup .modal__btn:focus,
+#clever-express-checkout-popup .modal__btn:hover,
+#clever-offer-popup .modal__btn:focus,
+#clever-offer-popup .modal__btn:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+#clever-express-checkout-popup .modal__btn-primary, #clever-offer-popup .modal__btn-primary {
+  background-color: #00449e;
+  color: #fff;
+}
+
+#clever-express-checkout-popup .clever-text-l, #clever-offer-popup .clever-text-l {
+  text-align: left;
+}
+
+.cashback_value.off-m,
+.off-m {
+  display: none;
+}
+
+.clever-pay-error {
+  font-size: 13px;
+  color: red;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.clever-pay-check-out-express {
+  margin-top: 10px;
+  cursor: pointer !important;
+  width: 100%;
+  align-items: center;
+  background: #000000;
+  border-radius: 80px;
+  color: #fff !important;
+  border: 0;
+  position: relative;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  outline: 0;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+.cl-off-popup{
+  width: 20px; height: auto; margin-left: 5px;
+  position: relative;
+  top:6px;
+}
+.clever-pay-check-out-express span {
+  color: #fff !important;
+  font-weight: 600;
+}
+
+.clever-pay-check-out-express .cb-content span {
+  line-height: 28px;
+}
+
+.clever-pay-check-out-express .cashback_title {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.clever-pay-check-out-express img {
+  width: 112px;
+  height: 24px;
+  vertical-align: middle;
+  margin-bottom: 3px;
+  margin-left: 5px;
+}
+
+.clever-loading-m {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999992 !important;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.clever-loading-m.in {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cl-popup-on {
+  text-align: center;
+  color: #fff;
+}
+
+.cl-popup-t1 {
+  font-size: 30px;
+}
+
+.in .cl-popup-on {
+  display: none;
+}
+
+.cl-popup-show {
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 12px;
+  color: #ddd;
+}
+
+.cl-express-checkout .cl-popup-on {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cl-close-popup {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  z-index: 999999;
+  cursor: pointer;
+}
+
+.cl-express-checkout.clever-loading-m {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cl-express-checkout svg {
+  display: none !important;
+}
+
+/**************************\
+    Demo Animation Style
+  \**************************/
+@keyframes mmfadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes mmfadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes mmslideIn {
+  from {
+    transform: translateY(15%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes mmslideOut {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-10%);
+  }
+}
+
+.micromodal-slide {
+  display: none;
+}
+
+.micromodal-slide.is-open {
+  display: block;
+}
+
+.micromodal-slide[aria-hidden='false'] .modal__overlay {
+  animation: mmfadeIn 0.3s cubic-bezier(0, 0, 0.2, 1);
+}
+
+.micromodal-slide[aria-hidden='false'] .modal__container {
+  animation: mmslideIn 0.3s cubic-bezier(0, 0, 0.2, 1);
+}
+
+.micromodal-slide[aria-hidden='true'] .modal__overlay {
+  animation: mmfadeOut 0.3s cubic-bezier(0, 0, 0.2, 1);
+}
+
+.micromodal-slide[aria-hidden='true'] .modal__container {
+  animation: mmslideOut 0.3s cubic-bezier(0, 0, 0.2, 1);
+}
+
+.micromodal-slide .modal__container,
+.micromodal-slide .modal__overlay {
+  will-change: transform;
+}
+
+.no-scroll {
+  overflow: hidden !important;
+}
+
+body {
+  overflow: initial;
+  height: initial;
+}
+
+#clever-express-checkout-popup .modal__overlay, #clever-offer-popup .modal__overlay {
+  z-index: 99999999;
+}
+
+#clever-express-checkout-popup .modal__content, #clever-offer-popup .modal__content {
+  margin-top: 0;
+}
+
+#clever-express-checkout-popup .modal__container, #clever-offer-popup .modal__container {
+  padding-top: 0 !important;
+  /* max-width: 1280px; */
+  width: 90%;
+  height: 90%;
+  position: relative;
+  background: transparent;
+  padding: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#clever-express-checkout-popup iframe, #clever-offer-popup iframe {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.clever_payment_list {
+  width: 210px !important;
+  /* min-height: 24px; */
+  vertical-align: middle;
+}
+
+/* @media only screen and (max-width: 1700px) {
+  #clever-express-checkout-popup .modal__container {
+    height: 85% !important;
+  }
+} */
+
+@media only screen and (max-width: 768px) {
+  #clever-express-checkout-popup .modal__container, #clever-offer-popup .modal__container {
+    max-width: 412px;
+  }
+}
+
+/* UX different */
+@media only screen and (max-width: 500px) {
+  #clever-express-checkout-popup .modal__container, #clever-offer-popup .modal__container {
+    width: 99% !important;
+    top: 0 !important;
+    height: 100% !important;
+  }
+
+  #clever-express-checkout-popup iframe, #clever-offer-popup iframe {
+    border-radius: 0 !important;
+  }
+
+  #clever-express-checkout-popup .cl_close, #clever-offer-popup .cl_close {
+    right: 10px !important;
+    top: 15px !important;
+    box-shadow: 0px 0px 1.5px;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 385px) {
+  .clever_payment_list {
+    width: 130px !important;
+  }
+}

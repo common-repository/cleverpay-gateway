@@ -1,0 +1,20 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ 
+[data-gateway_id="clever_gateway"] .wc-payment-gateway-method-name {
+    position: relative;
+    display: none !important;
+}
+
+/* [data-gateway_id="clever_gateway"] .wc-payment-gateway-method-name:after {
+    content: " ";
+    position: absolute;
+    width: 200px;
+    top: 1px;
+    height: 25px;
+    left: 20px;
+    background: url(https://helloclever.co/static/payment.svg);
+    background-repeat: no-repeat;
+} */
